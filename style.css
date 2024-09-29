@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background: url('https://images.unsplash.com/photo-1519125323398-675f0ddb6308?crop=entropy&fit=crop&w=1920&h=1080&q=80') no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.game-section {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    padding: 40px;
+    text-align: center;
+    width: 400px;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+#score {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.game-btn {
+    padding: 15px 30px;
+    font-size: 1.5rem;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.1s ease;
+}
+
+.game-btn:hover {
+    background-color: #218838;
+}
+
+.game-btn:active {
+    transform: scale(0.95); /* Анимация нажатия кнопки */
+}
+
+.shop {
+    margin-top: 30px;
+}
+
+.shop h2 {
+    margin-bottom: 10px;
+    font-size: 1.8rem;
+    color: #333;
+}
+
+.shop-btn {
+    display: block;
+    margin: 10px 0;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.shop-btn:hover {
+    background-color: #0056b3;
+}
